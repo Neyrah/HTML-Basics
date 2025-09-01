@@ -10,3 +10,10 @@
     * Connect an image, chart etc. with a caption. Connects the visual with its explanation.
 * figcaption `<figcaption>`
     * Optional caption that describes the content.
+ 
+
+#Slightly More Advanced
+
+* Add a link to your website `<a href>`, make a sentence a hyperlink with following syntax:
+     * `<a href="https://anylink.com">cute cats</a> online!</p>`
+          * we're turning the words "cute cat" into a clickable link to our chose adress

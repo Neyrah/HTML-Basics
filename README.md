@@ -1,4 +1,4 @@
-# First Prompts
+# 🧑🏼‍💻 First Prompts
 
 * Headers `<h1>, <h2>... <h6>`
     * Defines titles and subtitles
@@ -14,7 +14,7 @@
      * 
  
 
-# Slightly More Advanced
+# 💡 Slightly More Advanced
 
 
 * Image and image description (for accessibility purposes) `<img src>`and `<alt>`
@@ -31,6 +31,7 @@
      * ` <path d="allsortsofakwardvalues, usually pulled from a bank"></path>`
  
 
-# Goal of The Week
+# ✅ Goal of The Week
 
 * Design a small website incorporating all these elements.
+* Mine here is to design a course outline, using everithing I've learned while actively having to recall all the knowledge and building it into a wesbite!

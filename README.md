@@ -23,3 +23,6 @@
 * Add a link to your website `<a href>`, make a sentence a hyperlink with following syntax:
      * `<a href="https://anylink.com">cute cats</a> online!</p>`
           * we're turning the words "cute cat" into a clickable link to our chosen adress
+* Target `<target>`
+     * controls where a link opens when clicking (usually in a new tab)
+     * `<a href="https://example.com" target="_blank">Visit Example</a>`

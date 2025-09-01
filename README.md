@@ -26,3 +26,11 @@
 * Target `<target>`
      * controls where a link opens when clicking (usually in a new tab)
      * `<a href="https://example.com" target="_blank">Visit Example</a>`
+* SVG with width, height, viewbox and path d syntax
+     * `<svg width="24" height="24" viewBox="0 0 24 24">`
+     * ` <path d="allsortsofakwardvalues, usually pulled from a bank"></path>`
+ 
+
+# Goal of The Week
+
+* Design a small website incorporating all these elements.

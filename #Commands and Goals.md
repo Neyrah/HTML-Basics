@@ -34,4 +34,4 @@
 # ✅ Goal of The Week
 
 * Design a small website incorporating all these elements.
-* Mine here is to design a course outline, using everithing I've learned while actively having to recall all the knowledge and building it into a wesbite!
+* Mine here is to design a course outline, using everything I've learned while actively having to recall all the knowledge and building it into a wesbite!

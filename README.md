@@ -3,7 +3,7 @@
 * Headers `<h1>, <h2>... <h6>`
     * Defines titles and subtitles
 * Paragraphs `<p>`
-    * defines a paragraph, at this point I use these bellow headers thinking of the structure of an article
+    * defines a paragraph, at this point I use these below headers thinking of the structure of an article
 * Section `<section>`
     * Think of it like a chapter. It groups related content together.
 * figure `<figure>`

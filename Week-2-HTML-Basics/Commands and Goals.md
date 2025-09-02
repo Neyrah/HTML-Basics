@@ -15,6 +15,12 @@
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       title="YouTube video player"
     * Replace https://youtu.be with https://youtube.com/embed/
+    * `<small>`Element to display a smaller text, for instance to link to something else under an iframe or input:
+         * ```html
+           <small>
+              <a href="original link"> View original Link</a>
+           </small>```
+    * Use srcdoc to embed direct HTML
       
       
 * Input Element

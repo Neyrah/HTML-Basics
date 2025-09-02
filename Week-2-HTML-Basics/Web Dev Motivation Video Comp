@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Useful Links for the Web Dev Path</title>
+</head>
+
+<body>
+    <main>
+        <h1>Videos to get Started with Web Dev</h1>
+        <p> Starting out in web development is exciting — but it can also feel overwhelming. Progress takes time, and sometimes motivation dips. That’s why I’ve gathered this collection of videos: stories, tips, and reminders to keep your energy up and your goals in sight. Whether you need a quick boost, a laugh, or proof that every expert was once a beginner, this list is here to help you stay on track.</p>
+
+<section>
+    <h2> 
+"100+ Web Development Things you Should Know" by Fireship</h2>
+        <p> All you need to know to inspire your journey</p>
+<iframe
+    src="https://www.youtube.com/embed/erEgovG9WBs?si=6VhVrL13zprOfRVw"     
+    title="things to know"
+    width=300
+    height=200
+    allowfullscreen>
+    </iframe>
+        </section>
+
+<section>
+    <h2>
+"20 Programming Projects that will make you a God at Coding" by The Coding Sloth</h2>
+<p>Not 100% web dev but shows what anyone can do with a computer ☺️</p>
+<iframe
+    src="https://www.youtube.com/embed/jTJvyKZDFsY?si=99kbNA9cfBoxfv2I"
+    title="things to know"
+    width=300
+    height=200
+    allowfullscreen>
+    </iframe>
+    </section>
+
+<section>
+    <h2>"How I Became a Web Developer In 3 MONTHS & Got Hired" by Chris Sean</h2>
+    <p>If he can do it, you can do it!</p>
+<iframe src="https://www.youtube.com/embed/M3elPTFi-SQ?si=dsgwJ06lS5xEGxph"
+    title="things to know"
+    width=300
+    height=200
+    allowfullscreen>
+    </iframe>   
+
+    </main>
+
+</body>
+
+</html>
 

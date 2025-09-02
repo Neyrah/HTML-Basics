@@ -32,7 +32,8 @@
            <input type="image" alt="Descriptive text goes here" src="example-img-url">```
  
 
-# 💡 Slightly More Advanced
+# 💡 Other New Commands
+   * `<main`> which contains the primary content of the page. Only one per page.
 
 
 

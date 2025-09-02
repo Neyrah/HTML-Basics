@@ -11,6 +11,12 @@
          height="height-value"
          allowfullscreen>
       </iframe>```
+    * You can also add parameters via or a title:
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      title="YouTube video player"
+    * Replace https://youtu.be with https://youtube.com/embed/
+      
+      
 * Input Element
     * Used to create interactive controls (name, etc)
     * ```html

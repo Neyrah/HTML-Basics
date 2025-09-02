@@ -2,7 +2,8 @@
 
 * Iframes
     * Used to embed another website on your own
-    * ```html <iframe src="https://www.example.com" title="Example Site"></iframe>```
+    * ```html
+      <iframe src="https://www.example.com" title="Example Site"></iframe>```
     * ```html
       <iframe
          src="video-url"

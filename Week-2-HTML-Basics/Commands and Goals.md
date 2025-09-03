@@ -34,6 +34,10 @@
 
 # 💡 Other New Commands
    * `<main`> which contains the primary content of the page. Only one per page.
+   * Four different ways of telling the browser how to open a link:
+        * _self, default value and opens directly
+        * _blank, which opens in a new tab
+        * _parent and _top (not sure I understand these two yet, will update later)
 
 
 

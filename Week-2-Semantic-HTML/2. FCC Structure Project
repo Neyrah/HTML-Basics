@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Event Hub</title>
+</head>
+<header>
+    <h1>Event Hub</h1>
+    <nav>
+        <ul>
+            <li><a href="#upcoming-events">Upcoming Events</a></li>
+            <li><a href="#past-events">Past Events</a></li>
+        <ul>
+        </nav>
+</header>
+<main>
+    <section id="upcoming-events"> <!---No need for # here--->
+    <h2>Upcoming Events</h2>
+    <article>
+        <h3>My Birthday!</h3>
+        <p>I'm writing this on September 4th and my birthday is on the 7th. Guess who's traveling across the country to celebrate his GF's aunts' birthday instead? 😭<br>
+The celebration will take place <time datetime="2025-09-07T16:00"> Saturday</time>. Nobody is invited. <!---the <time datetime> is not visible but can be read by the browser for SEO matters--->
+    </p>     
+        </article>
+    <article>
+        <h3>My GFs' Aunts' Birthday 😭 </h3>
+        <p>A Three Day Party in Western France. Can't complain, still more fun than celebrating one's own birthday in grim Picardy.<br>
+The event will take place <time datetime="2025-09-07T16:00"> Saturday, Sunday and EVEN Monday!</time>.
+    </p>     
+        </section>
+    <section id="past-events">
+        <h2>Past Events</h2>
+    <article>
+        <h3>My Last Birthday</h3>
+        <p>It was OBVIOUSLY last year and was honestly quite boring.<br>
+        Here's a completely unrelated picture to fit the exercise:
+        </p>
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event1.jpg" alt="no idea what the picture'll be">    
+        </article>
+    <article>
+        <h3>France-Croatia 2018 World Cup Final </h3>
+        <p>This one doesn't need a description, we all know who won</p>     
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event2.jpg" alt="not related either lol">
+        </section>
+
+
+</main>
+
+<body>
+
+</body>
+
+</html>

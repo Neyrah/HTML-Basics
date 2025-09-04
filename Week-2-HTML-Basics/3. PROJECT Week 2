@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content="First Link to a new page!" />
+    <meta property="og:description" content="Journey to Web Dev Second Part" />
+    <meta property="og:image" content="any old image" />
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Week Two Project</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Second Week Commands</h1>
+      <section>
+        <h2>Introduction</h2>
+        <p>
+          Welcome to this second week of HTML wrapup project!<br />
+          I started this project by implementing open graph property meta
+          elements to the head. These wil give the browser more info on how to
+          show the link to this page.
+        </p>
+        <p>
+          Here is a list of the commands and things I learned this week that we
+          will be using in addition to those we already know:
+        </p>
+        <ol>
+          <li>
+            Open Graph Elements in the head (see code, I added title,
+            description and image)
+          </li>
+          <li><code>&ltinput type&gt</code> to add an interactive element</li>
+          <li>
+            <code>&ltsmall&gt</code>to add a smaller link under a picture for
+            instance
+          </li>
+          <li>
+            <code>&ltmain&gt</code>which we're using to tell the browser that
+            this intro is the main part of the page (see code)
+          </li>
+          <li>Set a path to a document contained on my computer</li>
+          <li><code>&ltclass&gt</code>to link to CSS styling</li>
+        </ol>
+      </section>
+    </main>
+
+    <section>
+      <h2>Experimenting with &ltinput type&gt</h2>
+
+      <input type="name" name="username" placeholder="enter name" />
+      <p>Seems to be working. Let's try and add some functionality to this.</p>
+      <input
+        type="text"
+        name="username"
+        placeholder="change InputType to text?"
+      />
+      <p>
+        After a bit of research I stumbled upon the
+        <code>&ltform&gt</code> element.<br />
+        It groups elements of submission into a container.<br />
+        Also, you can currently only type in the boxes above but nothing
+        happens. I would like to try and make this so you can click "enter" and
+        it shows something else!<br />
+      </p>
+      <p>
+        Let's make a new box using
+        <code>&ltform action="/submit" method="post"&gt</code>:
+      </p>
+      <form action="/submit" method="post">
+        <input type="text" name="username" placeholder="enter name" />
+      </form>
+      <p>
+        Now I can hit enter but it sends me to an error page.<br />
+        I will leave the rest for later but it was good to experiment with
+        interactivity rather than just plain text or links.<br />
+        In the future I ought to learn how to authorize only a specific format
+        (like an email adress) and how to link this to something else.<br />
+        I'm sure there are many more input elements to add things different to a
+        box where we can type something!
+      </p>
+    </section>
+
+    <section>
+      <h2>Trying out Iframes</h2>
+      <p>
+        Let's try this with a link to a Web Dev Simplified video on Youtube<br />
+        This is too advanced for me for the moment but the playlist if full of
+        fun projects to create using the full HTML, CSS and JVS suite.<br />
+        I'm saving this for later!
+      </p>
+      <iframe
+        src="https://www.youtube.com/embed/j59qQ7YWLxw?si=fD4ONlpEn2zvAjYi"
+        title="fun projects"
+        width="600"
+        height="400"
+      >
+      </iframe>
+      <p>
+        Now let's wrap this Iframe in a figure element so I can use the
+        figcaption to add a caption using &ltsmall&gt.<br />
+        I also added "allowfullscreen" to enable fullscreen but turns out it
+        isn't enough.<br />
+        The allow function must include all autorizations provided in the
+        youtube boilerplate (accessed via the share -> imbed)<br />
+        <br />
+        UPDATE: Turns out CodeSandbox and some other environments simply don't
+        allow fullscreen but the code should be correct.
+      </p>
+
+      <figure>
+        <figcaption><small> Fun projects</small></figcaption>
+        <iframe
+          src="https://www.youtube.com/embed/j59qQ7YWLxw?si=fD4ONlpEn2zvAjYi"
+          title="fun projects"
+          width="600"
+          height="400"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        >
+        </iframe>
+      </figure>
+    </section>
+  </body>
+</html>
